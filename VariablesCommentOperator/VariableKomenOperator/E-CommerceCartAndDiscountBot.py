@@ -8,3 +8,14 @@ gratis_ongkir = total > 150000
 
 print("Total Belanja: Rp", total)
 print("Dapat Gratis Ongkir?", gratis_ongkir)
+
+
+suhu = 100
+batas_suhu_aman = 20
+suhu_sekarang = 15
+suhu_bahaya = False
+suhu_bahaya = suhu_sekarang < batas_suhu_aman
+
+print("Suhu Sekarang:", suhu_sekarang)
+print(suhu_bahaya, "Warning", "Not Warning")
+
