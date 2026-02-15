@@ -17,5 +17,5 @@ suhu_bahaya = False
 suhu_bahaya = suhu_sekarang < batas_suhu_aman
 
 print("Suhu Sekarang:", suhu_sekarang)
-print(suhu_bahaya, "Warning", "Not Warning")
+
 
